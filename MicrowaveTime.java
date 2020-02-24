@@ -43,7 +43,8 @@ public class MicrowaveTime {
           amount = userInput.nextInt(); 
           if (amount == 1 || amount == 2 || amount == 3) {
             timeForAllItems = ((amount - 1) / 2 + 1) * timeForOneItem;
-            System.out.println("It will take " + timeForAllItems + " minutes to microwave " + amount + " " + item + ".");
+            System.out.println("It will take " + timeForAllItems + " minutes to microwave " 
+                + amount + " " + item + ".");
           } else {
             // Informs user their input is invalid
             System.out.println("Invalid Input");
